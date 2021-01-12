@@ -2,7 +2,7 @@ import chalk from 'chalk';
 import inquirer from 'inquirer';
 import path from 'path';
 import { isPathExist } from '../service/fs/fs';
-import { config } from '../cli';
+import { config } from '../index';
 import createPrompt from '../commands/create/create.prompt';
 import { newProjectGenerator } from '../service/generator/generator.project';
 

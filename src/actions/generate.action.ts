@@ -1,6 +1,6 @@
 import chalk from 'chalk';
 import { newModule } from '../service/generator/generator.modules';
-import { config } from '../cli';
+import { config } from '../index';
 import { ModuleEnum } from '../enums/module.enum';
 
 export default async function generateModule(moduleType: string, name: string): Promise<void> {

@@ -4,7 +4,7 @@ import chalk from 'chalk';
 import {
   getFilesPaths, writeFile, copy, renameFile,
 } from '../fs/fs';
-import { config } from '../../cli';
+import { config } from '../../index';
 import { getTemplateByID } from '../../config/cli.config';
 import { LangEnums } from '../../enums/lang.enums';
 import getTemplatePath from '../utils/getTemplate';
