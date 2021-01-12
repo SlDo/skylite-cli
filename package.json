@@ -41,7 +41,7 @@
     "typescript": "^4.1.3"
   },
   "bin": {
-    "sncli": "lib/index"
+    "sncli": "lib/index.js"
   },
   "scripts": {
     "release": "standard-version",
@@ -49,7 +49,7 @@
     "release:minor": "npm run release -- --release-as minor",
     "release:major": "npm run release -- --release-as major",
     "build": "tsc -p . && copyfiles -u 1 src/**/*.js lib/",
-    "test": "jest",
+    "test": "jest --testPathPattern='/src/*'",
     "lint": "eslint"
   },
   "author": "Slava Dodonov <alforestx@gmail.com>",
