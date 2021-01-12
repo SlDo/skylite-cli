@@ -52,6 +52,6 @@
     "test": "jest",
     "lint": "eslint"
   },
-  "author": "",
+  "author": "Slava Dodonov <alforestx@gmail.com>",
   "license": "MIT"
 }
