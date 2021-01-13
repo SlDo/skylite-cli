@@ -54,7 +54,7 @@
     "typescript": "^4.1.3"
   },
   "bin": {
-    "slcli": "lib/index.js"
+    "skylite": "lib/index.js"
   },
   "scripts": {
     "release": "standard-version",
