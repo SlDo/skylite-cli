@@ -1,4 +1,4 @@
-#!/usr/bin/env ts-node-script
+#!/usr/bin/env node
 
 import chalk from 'chalk';
 import boxen from 'boxen';
@@ -13,9 +13,9 @@ program.version('- Version: 0.0.1', '-v, -V, --version', 'output the current ver
 
 log(boxen(`
   ${chalk.hex('#a7c5eb').bold('WELCOME!')}                                   
-  ${chalk.whiteBright('snCLI can help you to create a powerful Node.js application')}
+  ${chalk.whiteBright('Skylite CLI can help you to create a powerful Node.js application')}
 `, { padding: 1, borderColor: '#a7c5eb' }));
 
-export const config = new Config(`${os.homedir()}/.sncli/config.json`);
+export const config = new Config(`${os.homedir()}/.slcli/config.json`);
 
 program.parse(process.argv);
