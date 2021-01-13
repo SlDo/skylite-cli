@@ -48,7 +48,7 @@
     "typescript": "^4.1.3"
   },
   "bin": {
-    "sncli": "lib/index.js"
+    "slcli": "lib/index.js"
   },
   "scripts": {
     "release": "standard-version",
