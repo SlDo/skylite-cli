@@ -1,6 +1,6 @@
 {
   "name": "skylite",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The Skylite CLI for creating a powerful Node.js applications ",
   "main": "lib/index.js",
   "repository": {
@@ -8,7 +8,13 @@
     "url": "git+https://github.com/SlDo/sncli.git"
   },
   "keywords": [
-    "typescipt", "javascript", "ts", "js", "cli", "node.js", "structure"
+    "typescipt",
+    "javascript",
+    "ts",
+    "js",
+    "cli",
+    "node.js",
+    "structure"
   ],
   "dependencies": {
     "boxen": "^5.0.0",
