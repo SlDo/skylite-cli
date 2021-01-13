@@ -3,6 +3,9 @@
 
 .idea
 package-lock.json
+.nyc_output
+coverage
+*.lcov
 
 # Logs
 logs

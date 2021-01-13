@@ -63,6 +63,7 @@
     "release:major": "npm run release -- --release-as major",
     "build": "tsc -p . && copyfiles -u 1 src/**/*.js lib/",
     "test": "jest --testPathPattern='/src/*'",
+    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "lint": "eslint"
   },
   "author": "Slava Dodonov <alforestx@gmail.com>",

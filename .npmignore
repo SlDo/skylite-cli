@@ -2,3 +2,6 @@ tsconfig.json
 src
 .idea
 skylite.png
+.nyc_output
+coverage
+*.lcov
