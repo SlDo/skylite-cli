@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/SlDo/sncli.git"
   },
+  "keywords": [
+    "typescipt", "javascript", "ts", "js", "cli", "node.js", "structure"
+  ],
   "dependencies": {
     "boxen": "^5.0.0",
     "chalk": "^4.1.0",
