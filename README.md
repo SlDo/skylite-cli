@@ -9,3 +9,39 @@
 
 Skyline is created for **fast generation of productive Nodes.js applications.** It solves the problem of generating a startup project, as well as its modules (such as controller and dal)
 
+## Installation
+
+```
+npm install -g skylite
+```
+
+## Usage
+
+💻 **Creating a project**
+
+```
+skylite create <name of project>
+cd <name of project>
+npm i <name of project>
+```
+
+🔌 **Creating a controller**
+
+```
+cd <name of project>
+skylite generate controller <name of module>
+```
+
+🗃 **Creating a DAL**
+
+```
+cd <name of project>
+skylite generate dal <name of module>
+```
+
+## License
+
+[Apache 2.0](https://github.com/SlDo/skylite-cli/blob/main/LICENSE)
+
+
+
