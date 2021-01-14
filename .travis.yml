@@ -2,6 +2,8 @@ language: node_js
 node_js:
   - "10"
 script:
+  - npm install -g codecov
   - npm run lint
   - npm run build
   - npm run test
+  - npm run report-coverage
