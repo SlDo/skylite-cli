@@ -3,4 +3,7 @@ module.exports = {
   testEnvironment: 'node',
   modulePathIgnorePatterns: ['templates'],
   collectCoverage: true,
+  transform: {
+    '^.+\\.(ts|js|html)$': 'ts-jest',
+  },
 };
