@@ -4,6 +4,6 @@
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/sldo/skylite-cli)
 ![Codecov](https://img.shields.io/codecov/c/gh/SlDo/skylite-cli)
 ![Downloads](https://img.shields.io/npm/dt/skylite)
-![GitHub issues](https://img.shields.io/github/issues/sldo/skylite-cli)
-![GitHub](https://img.shields.io/github/license/sldo/skylite-cli)
+![GitHub issues](https://img.shields.io/github/issues/sldo/skylite-cli) 
+![GitHub](https://img.shields.io/github/license/sldo/skylite-cli?color=#1BCC1B)
 
