@@ -2,7 +2,7 @@ import mock from 'mock-fs';
 import fse from 'fs-extra';
 
 import {
-  createFile, copy, isPathExist, writeFile, getFilesPaths,
+  createFile, copy, isPathExist, writeFile, getFilesPaths, renameFile
 } from './fs';
 
 beforeEach(async () => {
@@ -32,6 +32,11 @@ describe('fs module', () => {
 
   test('it should return true if a path exist', async () => {
     expect(await isPathExist('/test')).toBeTruthy();
+  });
+
+  test('it should rename a file', async () => {
+    await renameFile('/test/copy/copy.txt', '/test/copy/copy.ini');
+    expect(await fse.pathExists('/test/copy/copy.ini')).toBeTruthy();
   });
 
   test('it should write a content in some file', async () => {
