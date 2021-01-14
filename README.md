@@ -5,7 +5,7 @@
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/sldo/skylite-cli)
 ![Downloads](https://img.shields.io/npm/dt/skylite)
 ![GitHub issues](https://img.shields.io/github/issues/sldo/skylite-cli) 
-![GitHub](https://img.shields.io/github/license/sldo/skylite-cli?color=#1BCC1B)
+![NPM](https://img.shields.io/npm/l/skylite?color=blue)
 
 Skyline is created for **fast generation of productive Nodes.js applications.** It solves the problem of generating a startup project, as well as its modules (such as controller and dal)
 
