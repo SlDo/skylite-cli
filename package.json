@@ -1,6 +1,6 @@
 {
   "name": "skylite",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "The Skylite CLI for creating a powerful Node.js applications ",
   "main": "lib/index.js",
   "repository": {
