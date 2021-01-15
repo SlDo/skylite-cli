@@ -2,6 +2,7 @@ language: node_js
 node_js:
   - "10"
 script:
+  - jest --clearCache
   - npm install -g codecov
   - npm run lint
   - npm run build
